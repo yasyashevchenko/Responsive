@@ -211,7 +211,7 @@ body {
 }
 
 .menu-mob-wrapper.active {
-	display: block;
+	display: none;
 }
  
 .header-content-item {
