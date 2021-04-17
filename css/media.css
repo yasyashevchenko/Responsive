@@ -169,12 +169,20 @@
         background-position-x: -1100px;
     }
     
-    .menu, .menu-icon {
+    .menu {
+       display: none;
+    }
+
+    .menu-icon {
        display: none;
     }
 
     .menu-mob-wrapper.active {
         display: block;
+    }
+
+     .menu-mob.advantage-item {
+        display: block
     }
 
     .navbar {
@@ -187,9 +195,6 @@
         align-items: center;
     }
 
-    .menu-mob-wrapper.active {
-        display: block
-    }
 
     .header-buttons {
         display: block;

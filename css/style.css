@@ -134,6 +134,8 @@ body {
     margin-right: 32px;
 }
 
+/* burger */
+
 .header-burger {
 	display: block;
 	position: relative;
@@ -173,16 +175,21 @@ body {
 	transform: translateY(-5px);
 }
 
-.header-burger-active span::before {
-	width: 24px;
-	transform: rotate(45deg); 
-
-}
-
 .header-burger span::after {
 	width: 11px;
 	left: 7px;
 	transform: translateY(5px);
+}
+
+/* active */
+
+/* .header-burger-active span {
+    display: none;
+} */
+
+.header-burger-active span::before {
+	width: 24px;
+	transform: rotate(45deg); 
 }
 
 .header-burger-active span::after {
@@ -195,6 +202,7 @@ body {
 	height: 0;
 }
 
+/* . */
 
 .header-content-item span::after {
 	width: 24px;
