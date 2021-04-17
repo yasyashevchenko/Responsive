@@ -674,6 +674,7 @@ body {
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #737373;
+    margin-right: 0;
 }
 
 .formButton {
@@ -691,6 +692,7 @@ body {
     letter-spacing: 0.2px;
     color: #FFFFFF;
     padding: 15px 22px;
+    margin-left: 0;
 }
 
 .contact-wrapper {
